@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="0" errors="0" skipped="0" tests="2" time="33.047980" name="Google Search - As a web surfer I want to be able to search for">
+<testcase classname="Google Search - As a web surfer I want to be able to search for" name="Google Search for Cucumber" time="17.889979">
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+<testcase classname="Google Search - As a web surfer I want to be able to search for" name="Google Search for Cucumber (outline example : | Cucumber BDD |)" time="15.158001">
+  <system-out>
+    <![CDATA[]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+</testsuite>

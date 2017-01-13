@@ -1,0 +1,250 @@
+[
+  {
+    "uri": "features/google_search/google_search.feature",
+    "id": "google-search---as-a-web-surfer-i-want-to-be-able-to-search-for",
+    "keyword": "Feature",
+    "name": "Google Search - As a web surfer I want to be able to search for",
+    "description": "  different words or phrases and obtain search results from Google's search\n  page.",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@google",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "google-search---as-a-web-surfer-i-want-to-be-able-to-search-for;google-search-for-cucumber",
+        "keyword": "Scenario",
+        "name": "Google Search for Cucumber",
+        "description": "",
+        "line": 8,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@google",
+            "line": 1
+          },
+          {
+            "name": "@fast",
+            "line": 7
+          },
+          {
+            "name": "@smoke",
+            "line": 7
+          },
+          {
+            "name": "@jira_12345",
+            "line": 7
+          },
+          {
+            "name": "@scenario",
+            "line": 7
+          }
+        ],
+        "comments": [
+          {
+            "value": "# Sample Scenario format where test data is directly inside the test steps.",
+            "line": 6
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45570
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7390
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I have navigated to the Google search page",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5319556152
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I enter Cucumber BDD into the search field",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6451037876
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the Cucumber web page displayed in the search results",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4444094341
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22990
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1673914963
+            }
+          }
+        ]
+      },
+      {
+        "id": "google-search---as-a-web-surfer-i-want-to-be-able-to-search-for;google-search-for-cucumber;;2",
+        "keyword": "Scenario Outline",
+        "name": "Google Search for Cucumber",
+        "description": "",
+        "line": 23,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@google",
+            "line": 1
+          },
+          {
+            "name": "@fast",
+            "line": 15
+          },
+          {
+            "name": "@smoke",
+            "line": 15
+          },
+          {
+            "name": "@jira_12345",
+            "line": 15
+          },
+          {
+            "name": "@scenario_outline",
+            "line": 15
+          }
+        ],
+        "comments": [
+          {
+            "value": "# Sample Scenario Outline format of the exact same test.  The test will",
+            "line": 13
+          },
+          {
+            "value": "# execute once per row of data / search term.",
+            "line": 14
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17243
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11085
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I have navigated to the Google search page",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4300310658
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I enter Cucumber BDD into the search field",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5341638506
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should see the Cucumber web page displayed in the search results",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/step_definitions.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3850415737
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29969
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1664212159
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
